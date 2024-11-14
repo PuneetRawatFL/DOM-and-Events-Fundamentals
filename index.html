@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <h1>DOM and Events Fundamentals</h1>
+        <p>This is my third assignment</p>
+
+        <!-- Q3 -->
+        <h2>Headings</h2>
+        <h3 class="heading3">Heading Level 3</h3>
+        <p>
+            Headings help to structure the content of your web page. They range
+            from level 1 to level 6.
+        </p>
+        <h2>Paragraphs</h2>
+        <p>
+            Paragraphs are used to group sentences together into blocks of text.
+            They are defined with the &lt;p&gt; tag.
+        </p>
+
+        <!-- Q5 -->
+        <h2>Buttons</h2>
+        <button class="button" id="btn1">Click Me!</button>
+
+        <!-- Q8 -->
+        <h3>Guess The Number</h3>
+        <p>Guess a number between 1 - 10</p>
+        <p>High Score: <span id="highScore">0</span></p>
+        <p>Lowest Attempt: <span id="lowAtt">0</span></p>
+        <p>Your Score: <span id="userScore">100</span></p>
+        <p>Attempts: <span id="attempts">0</span></p>
+        <input type="text" id="input" placeholder="Make your guess" />
+        <input type="submit" value="Submit" id="submit" />
+        <p id="message"></p>
+        <button class="button" id="btn2">Restart</button>
+
+        <!-- Q19 -->
+        <p>New Game</p>
+        <p id="player1"></p>
+        <p id="player2"></p>
+
+        <!-- Q22 - create modal -->
+        <button id="btn3">Open Modal</button>
+
+        <div
+            id="myModal"
+            style="
+                display: none;
+                background-color: aqua;
+                height: 300px;
+                width: 500px;
+                border: 2px solid black;
+                position: fixed;
+                top: 30vh;
+                left: 50vh;
+                z-index: 1;
+                text-align: center;
+            "
+        >
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
+                cupiditate corporis asperiores, assumenda eos iure perspiciatis
+                maxime tempore quibusdam nihil quos ut omnis nesciunt inventore
+                ad facere voluptates. Deleniti, reprehenderit?
+            </p>
+        </div>
+
+        <script src="./script.js"></script>
+    </body>
+</html>
