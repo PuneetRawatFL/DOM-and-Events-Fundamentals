@@ -1,4 +1,4 @@
-//12
+//12 - Use JavaScript to change the CSS styles of elements dynamically (e.g., change the font size, color, or visibility of an element when a button is clicked).
 let p = document.querySelector(".para");
 let btn1 = document.querySelector(".button1");
 let btn2 = document.querySelector(".button2");
